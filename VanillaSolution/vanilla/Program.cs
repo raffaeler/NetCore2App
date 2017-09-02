@@ -7,7 +7,10 @@ namespace vanilla
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("This is a very basic application to verify that dotnet is installed correctly");
+
             Console.WriteLine(
+                $"Vanilla v1.0 by @raffaeler, 2017\r\n" +
                 $"Machine:     {Environment.MachineName}\r\n" +
                 $"OS         : { GetOS()}\r\n" +
                 $"Description: { RuntimeInformation.OSDescription}"
