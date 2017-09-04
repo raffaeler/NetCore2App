@@ -3,6 +3,9 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.0</TargetFramework>
+    <!-- Unless you have device-specific resources, this is no more needed in NetCore 2 -->
+    <!-- The runtime identifiers can be directly specified when publising from the CLI  -->
+    <!--<RuntimeIdentifiers>win-x64;win-x86;win-arm;linux-x64;linux-x86;linux-arm</RuntimeIdentifiers>-->
   </PropertyGroup>
 
 </Project>
